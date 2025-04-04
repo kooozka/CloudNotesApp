@@ -1,0 +1,55 @@
+# FRONTEND (React)
+frontend/node_modules/
+frontend/.next/
+frontend/.nuxt/
+frontend/.turbo/
+frontend/.parcel-cache/
+frontend/.eslintcache
+frontend/dist/
+frontend/build/
+frontend/.DS_Store
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+frontend/pnpm-debug.log*
+frontend/.env.local
+frontend/.env.development.local
+frontend/.env.test.local
+frontend/.env.production.local
+
+# BACKEND (Spring Boot)
+backend/target/
+backend/.gradle/
+backend/.mvn/
+backend/.idea/
+backend/.classpath
+backend/.project
+backend/.settings/
+backend/.vscode/
+backend/logs/
+backend/*.log
+backend/*.iml
+backend/.DS_Store
+backend/.env
+backend/.env.local
+
+# TERRAFORM
+terraform/.terraform/
+terraform/.terraform.lock.hcl
+terraform/terraform.tfstate
+terraform/terraform.tfstate.backup
+terraform/.terraform.tfstate.lock.info
+terraform/crash.log
+terraform/override.tf
+terraform/override.tf.json
+terraform/.DS_Store
+terraform/.vscode/
+
+# SYSTEMOWE / GLOBALNE
+**/.DS_Store
+**/Thumbs.db
+**/desktop.ini
+**/.vscode/
+**/.idea/
+**/.env
+**/.env.local
